@@ -1,8 +1,9 @@
 import React from "react";
+import Card from "./components/Card";
 function App() {
   return (
     <div>
-      <h1>Testing</h1>
+      <Card />
     </div>
   );
 }
