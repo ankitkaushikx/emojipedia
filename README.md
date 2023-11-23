@@ -2,30 +2,20 @@
 
 ## Overview
 
-EmojiPedia is a simple web application that allows users to explore and search for emojis. The application is built using React for the frontend and Node.js for the backend.
+EmojiPedia is a simple web application that allows users to explore and search for emojis. The application is built using React.
 
 ## Tech Stack
 
 - **Frontend:**
-
   - React
   - HTML
   - CSS
   - JavaScript
 
-- **Backend:**
-
-  - Node.js
-  - Express
-
-- **Database:**
-  - (Specify your database, if any)
-
 ## Features
 
 - Browse a wide range of emojis.
 - Search for emojis by keywords.
-- (Add any additional features here)
 
 ## How to Use
 
@@ -38,10 +28,12 @@ Before you begin, ensure you have the following installed on your machine:
 
 ### Installation
 
+To install EmojiPedia, follow these steps:
+
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/emojipedia.git
+   git clone https://github.com/ankitkaushikx/emojipedia.git
    ```
 
 2. Navigate to the project directory:
@@ -58,21 +50,9 @@ Before you begin, ensure you have the following installed on your machine:
 
 ### Usage
 
-1. Start the backend server:
+To use EmojiPedia, follow these steps:
 
-   ```bash
-   npm start
-   ```
-
-   This will start the Node.js server.
-
-2. In a separate terminal, navigate to the `client` directory:
-
-   ```bash
-   cd client
-   ```
-
-3. Start the React development server:
+1. Start the React development server:
 
    ```bash
    npm start
@@ -80,7 +60,7 @@ Before you begin, ensure you have the following installed on your machine:
 
    This will launch the EmojiPedia web application in your default web browser.
 
-4. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to use EmojiPedia.
+2. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to use EmojiPedia.
 
 ## Contribution
 
