@@ -1,11 +1,11 @@
 import React from "react";
 
-function Card() {
+function Card(props) {
   return (
     <div className="card">
-      <span className="icon-span"></span>
-      <dt className="emoji-namse">Smily</dt>
-      <dd className="emoji-description"> This is for smiling</dd>
+      <span className="icon-span">{props.icon}</span>
+      <dt className="emoji-namse">{props.iconName}</dt>
+      <dd className="emoji-description">{props.iconDescription}</dd>
     </div>
   );
 }

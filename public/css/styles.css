@@ -15,22 +15,22 @@ body {
   text-align: center;
   margin-bottom: 20px; /* Reduced margin for a cleaner look */
 }
-
 .container {
-  min-height: 80vh; /* Increased min-height for better content visibility */
+  min-height: 80vh;
   display: flex;
-  justify-content: space-around; /* Improved spacing between cards */
-  align-items: center;
-  flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
   padding: 20px;
 }
 
 .card {
+  flex: 1 0 calc(33.33% - 30px); /* Distributes available space equally among three cards with some margin */
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softened box shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
-  margin: 15px; /* Added margin for better separation between cards */
+  margin: 15px;
   text-align: center;
 }
 
